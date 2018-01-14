@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/numbersColor"
+    tools:context="com.ahtaya.chidozie.frenchguide.AboutActivity">
+
+    <ImageView
+        android:id="@+id/about_img"
+        android:contentDescription="@string/about_name"
+        android:layout_width="match_parent"
+        android:scaleType="centerInside"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:src="@drawable/frguide"/>
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="@string/about_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="@string/copyright"
+        android:textSize="16sp"/>
+
+</LinearLayout>

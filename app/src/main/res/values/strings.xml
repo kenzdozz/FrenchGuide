@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">French Guide</string>
+    <string name="about_name">About</string>
+    <string name="about_text">French Guide is an app that helps you with the
+        translation of common English numbers, colors, phrases and sentences to French.
+        \nIt offers audio feedback to teach the right pronunciation of these words. \nEnjoy.
+    </string>
+    <string name="copyright">FrenchGuide v1.0 \n Developed by: Ahtaya Group</string>
+</resources>
